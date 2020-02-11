@@ -1,5 +1,5 @@
 <RCC>
-    <qresource prefix="/plugins/auto_syno" >
+    <qresource prefix="/plugins/autosyno" >
         <file>icon.png</file>
     </qresource>
 </RCC>
