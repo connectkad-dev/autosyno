@@ -6,7 +6,7 @@
     <homepage>https://github.com/nrosametis/autosyno</homepage>
     <qgis_minimum_version>2.2</qgis_minimum_version>
     <file_name>autosyno.zip</file_name>
-    <download_url>https://github.com/nrosametis/autosyno/autosyno.zip</download_url>
+    <download_url>https://github.com/nrosametis/autosyno/blob/master/autosyno.zip</download_url>
     <author_name>Nathan ROSA</author_name>
     <experimental>True</experimental>
     <deprecated>False</deprecated>
