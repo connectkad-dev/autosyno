@@ -1,0 +1,55 @@
+# This file contains metadata for your plugin. Beginning
+# with version 1.8 this is the preferred way to supply information about a
+# plugin. The current method of embedding metadata in __init__.py will
+# be supported until version 2.0
+
+# This file should be included when you package your plugin.
+
+# Mandatory items:
+
+[general]
+name=Auto'Syno
+qgisMinimumVersion=3.0
+qgisMaximumVersion=3.10
+description=Auto'Syno est un générateur de synoptique FTTH depuis QGIS
+
+version=0.1
+author=EDS for METIS RESEAUX
+email=n.rosa@metis-reseaux.fr
+
+about=Auto'Syno vous permet de générer le syno de votre projet en toute simplicité!
+
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags= generation, syno, excel, export
+
+homepage=https://github.com/nrosametis/autosyno
+tracker=https://github.com/nrosametis/autosyno/issues
+repository=https://github.com/nrosametis/autosyno/
+category=Plugins
+icon=icon.png
+
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
