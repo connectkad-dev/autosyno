@@ -5,7 +5,6 @@
 
 #							 -------------------
 #		begin				: 2020-02-10
-#		git sha				: $Format:%H$
 #		copyright			: (C) 2020 by EDS for METIS RESEAUX
 #		email				: n.rosa@metis-reseaux.fr
 # ***************************************************************************/
@@ -39,15 +38,15 @@ LOCALES =
 # translation
 SOURCES = \
 	__init__.py \
-	auto_syno.py auto_syno_dialog.py
+	autosyno.py autosyno_dialog.py
 
-PLUGINNAME = auto_syno
+PLUGINNAME = autosyno
 
 PY_FILES = \
 	__init__.py \
-	auto_syno.py auto_syno_dialog.py
+	autosyno.py autosyno_dialog.py
 
-UI_FILES = auto_syno_dialog_base.ui
+UI_FILES = autosyno_dialog_base.ui
 
 EXTRAS = metadata.txt icon.png
 
@@ -77,15 +76,6 @@ HELP = help/build/html
 PLUGIN_UPLOAD = $(c)/plugin_upload.py
 
 RESOURCE_SRC=$(shell grep '^ *<file' resources.qrc | sed 's@</file>@@g;s/.*>//g' | tr '\n' ' ')
-
-.PHONY: default
-default:
-	@echo While you can use make to build and deploy your plugin, pb_tool
-	@echo is a much better solution.
-	@echo A Python script, pb_tool provides platform independent management of
-	@echo your plugins and runs anywhere.
-	@echo You can install pb_tool using: pip install pb_tool
-	@echo See https://g-sherman.github.io/plugin_build_tool/ for info. 
 
 compile: $(COMPILED_RESOURCE_FILES)
 
