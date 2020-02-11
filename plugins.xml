@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<plugins>
+  <pyqgis_plugin name="AutoSyno" version="0.1.0">
+    <description>Auto'Syno est un générateur de synoptique FTTH depuis QGIS</description>
+    <version>0.1</version>
+    <homepage>https://github.com/nrosametis/autosyno</homepage>
+    <qgis_minimum_version>2.2</qgis_minimum_version>
+    <file_name>autosyno.zip</file_name>
+    <download_url>https://github.com/nrosametis/autosyno/autosyno.zip</download_url>
+    <author_name>Nathan ROSA</author_name>
+    <experimental>True</experimental>
+    <deprecated>False</deprecated>
+    <tracker>https://github.com/nrosametis/autosyno/issues</tracker>
+    <repository>https://github.com/nrosametis/autosyno</repository>
+    <tags>generation, syno, excel, export</tags>
+  </pyqgis_plugin>
+</plugins>
