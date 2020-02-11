@@ -23,5 +23,5 @@
 """
 
 def classFactory(iface):
-    from .auto_syno import AutoSyno
+    from .autosyno import AutoSyno
     return AutoSyno(iface)
